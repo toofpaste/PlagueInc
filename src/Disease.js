@@ -15,42 +15,48 @@ export class Disease{
           severity: 0,
           transmit: (3),
           resistance: (1),
-          visability: (2)
+          visability: (2),
+          valu: 0
         },
         {
           name: 'Sneezing',
           severity: 0,
           transmit: (3),
           resistance: (2),
-          visability: 3
+          visability: 3,
+          valu: 1
         },
         {
           name: 'Nausuea',
           severity: 0,
           transmit: (1),
           resistance: (1),
-          visability: (2)
+          visability: (2),
+          valu: 2
         },
         {
           name: 'Vommiting',
           severity: 0,
           transmit: (2),
           resistance: (1),
-          visability: (4)
+          visability: (4),
+          valu: 3
         },
         {
           name: 'Fever',
           severity: 0,
           transmit: (1),
           resistance: (3),
-          visability: (1)
+          visability: (1),
+          valu: 4
         },
         {
           name: 'ExplosivePoops',
           severity: 0,
           transmit: (2),
           resistance: (3),
-          visability: (2)
+          visability: (2),
+          valu: 5
         }
       ];
 
